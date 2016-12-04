@@ -1,0 +1,5 @@
+(DEFUN C:trikampis()
+  (SETQ Taskas1 (GETPOINT "\n iveskite tasko Taskas1 koordinates:"))
+  (SETQ Taskas2 (GETPOINT "\n iveskite tasko Taskas2 koordinates:"))
+  (SETQ Taskas3 (GETPOINT "\n iveskite tasko Taskas3 koordinates:"))
+  (COMMAND "LINE"Taskas1 Taskas2 Taskas3 "C"))
